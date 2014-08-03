@@ -18,6 +18,10 @@ ITEM_METHODS = ['GET','PATCH','PUT','DELETE']
 CACHE_CONTROL = 'max-age=20'
 CACHE_EXPIRES = 20
 
+XML = False
+
+X_DOMAINS = '*'
+
 #schema according to specifications
 #schema is kept separate here for convenience.
 #would be better if schema is kept within resource item when there are multiple resources.

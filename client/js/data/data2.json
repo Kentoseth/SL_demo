@@ -1,0 +1,22 @@
+[
+{
+	"_updated": "Sun, 03 Aug 2014 00:16:51 GMT", 
+	"description": "Test video one", 
+	"title": "Video1", 
+	"url": "http://www.youtube.com/watch?v=pmnzIhbX2bg", 
+	"_links": {"self": {"href": "/video/53dd7f73194a010dbed1b9f7", "title": "Video"}}, 
+	"_created": "Sun, 03 Aug 2014 00:16:51 GMT", 
+	"_id": "53dd7f73194a010dbed1b9f7", 
+	"_etag": "c360cb8762d350d839a4ff1f22848e8ba8a1ff8e"
+}, 
+{
+	"_updated": "Sun, 03 Aug 2014 00:16:51 GMT", 
+	"description": "Test video two", 
+	"title": "Video2", 
+	"url": "http://www.youtube.com/watch?v=84DLT4yRcy4", 
+	"_links": {"self": {"href": "/video/53dd7f73194a010dbed1b9f8", "title": "Video"}}, 
+	"_created": "Sun, 03 Aug 2014 00:16:51 GMT", 
+	"_id": "53dd7f73194a010dbed1b9f8", 
+	"_etag": "7f4e5af75bfefa117fe466b1b04347a71f680077"
+}
+]

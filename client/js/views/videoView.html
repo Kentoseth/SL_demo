@@ -1,0 +1,13 @@
+<div>
+    <input type="text" ng-model="newVideo.title">
+    <button ng-click="addNewVideo(newVideo.title)">Add Item</button>
+	<br>
+    <hr />
+
+    <div ng-repeat="video in videos">
+        <li>{{video.title}}</li>
+        <li>{{video.description}}</li>
+        <a href=" {{video.url}} "><li>Watch Here</li></a>
+        <hr />
+    </div>
+</div>
