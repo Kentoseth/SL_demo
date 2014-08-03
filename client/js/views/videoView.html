@@ -1,13 +1,25 @@
 <div>
-    <input type="text" ng-model="newVideo.title">
-    <button ng-click="addNewVideo(newVideo.title)">Add Item</button>
-	<br>
-    <hr />
+	<div>
+		    <input type="text" ng-model="newVideo.title">
+		    <input type="text" ng-model="newVideo.description">
+		    <input type="text" ng-model="newVideo.url">
+		    <button class="btn btn-lg btn-default" ng-click="addNewVideo()">Add Item</button>
+			<br>
+		    <hr />
+	</div>
 
-    <div ng-repeat="video in videos">
-        <li>{{video.title}}</li>
-        <li>{{video.description}}</li>
-        <a href=" {{video.url}} "><li>Watch Here</li></a>
-        <hr />
-    </div>
+    <!--<div class="container"> -->
+    	<div class="text-center" ng-repeat="video in videos">
+				        <li>{{video.title}}</li>
+				        <li>{{video.description}}</li>
+				        <a href=" {{video.url}} "><li>Watch Here</li></a>
+				    <hr />
+    	</div>
+    	
+    <!--</div> -->
+
 </div>
+
+<!--<div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">

@@ -18,9 +18,12 @@ ITEM_METHODS = ['GET','PATCH','PUT','DELETE']
 CACHE_CONTROL = 'max-age=20'
 CACHE_EXPIRES = 20
 
+#Disabled XML for resource endpoint.
 XML = False
 
+#To enable CORS
 X_DOMAINS = '*'
+X_HEADERS = '*'
 
 #schema according to specifications
 #schema is kept separate here for convenience.
